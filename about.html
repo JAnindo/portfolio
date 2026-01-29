@@ -1,26 +1,65 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - JAPHETH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="dark">
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <button id="theme-switch">🌙</button>
-    </nav>
+<!-- Navigation -->
+<nav>
+    <div class="logo">
+        <div class="logo-icon"></div>
+        <img src="IMAGES/japheth_logo_1.PNG" class="logo-icon" alt="Logo">
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="templates.html">Templates</a></li>
+    </ul>
+    <div style="display: flex; gap: 20px; align-items: center;">
+        <button class="theme-toggle" id="theme-switch">🌙</button>
+        <a href="get-in-touch.html" class="contact-btn">Let's Connect</a>
+    </div>
+</nav>
 
-    <script src="script.js"></script>
+<!-- About Section -->
+<section class="about-wrapper">
+  <div class="about-section" id="about">
+    <h1>About <span class="italic-us">Me</span></h1>
+    <hr>
 
-<section id="home-content">
-    <h1>Welcome to my site!</h1>
+    <p>
+      I design and build thoughtful digital experiences that prioritise trust and real human outcomes.
+      My work sits at the intersection of product design, user experience, and engineering, bringing
+      structure to complexity.
+    </p>
+
+    <p>
+      Every project begins with understanding the people, systems and context. I focus on designing
+      scalable, intuitive products that feel calm, purposeful and effortless to use, whether they serve
+      a single brand or a white label ecosystem across multiple platforms.
+    </p>
+
+    <p>
+      With a background spanning product UI/UX design, full-stack development, and customer experience
+      in high-trust industries, I approach design holistically—from strategy and user journeys to visual
+      craft and technical execution.
+    </p>
+  </div>
 </section>
 
-<section id="about-content" style="display: none;">
-    <h1>About Me</h1>
-    <p>I am a developer learning JavaScript!</p>
-</section>
+<!-- Footer -->
+<footer>
+    ©️ 2025 All rights reserved
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

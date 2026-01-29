@@ -1,177 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JAPHETH - Full-Stack Developer</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAPHETH - Full-Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="dark">
-<!-- Navigation -->
-<nav>
-<div class="logo">
-<div class="logo-icon"></div>
-<span>JAPHETH</span>
-</div>
-<ul class="nav-links">
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About Me</a></li>
-<li><a href="#works">Works</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#blogs">Blogs</a></li>
-<li><a href="#schedule">Schedule</a></li>
-</ul>
-<div style="display: flex; gap: 20px; align-items: center;">
-<button class="theme-toggle" id="theme-switch">🌙</button>
-<button class="contact-btn">LET'S CONNECT</button>
-</div>
-</nav>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-logo">
+            <img src="IMAGES/japheth_logo_1.PNG" alt="Logo">
+        </div>
+        <div class="loading-progress-container">
+            <div class="loading-progress-bar"></div>
+        </div>
+    </div>
 
-<!-- Blue Glow Effect -->
-<div class="blue-glow"></div>
+    <!-- Main Content -->
+    <div id="main-content">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">
+                <img src="IMAGES/japheth_logo_1.PNG" class="logo-icon" alt="Logo">
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="Templates.html">Templates</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-switch"></button>
+                <a href="get-in-touch.html" class="contact-btn">Let's Connect</a>
+            </div>
+        </nav>
 
-<!-- Hero Section -->
-<section class="hero" id="home">
-<button class="design-label">DESIGN IN DETAILS</button>
+        <!-- Blue Glow Effect -->
+        <div class="blue-glow"></div>
 
-<h1>
-Full-Stack & UI/UX <span class="highlight">Focused</span><br>
-Developer
-</h1>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <a href="design-in-details.html">
+                <button class="design-label">DESIGN IN DETAILS</button>
+            </a>
+            
+            <h1>
+                Full-Stack & UI/UX <span class="highlight">Focused</span><br>
+                Developer
+            </h1>
 
-<p class="subtitle">Turning user insight into high digital impact</p>
+            <p class="subtitle">Turning user insight into high digital impact</p>
 
-<div class="cta-buttons">
-<button class="btn btn-primary">Get in touch</button>
-<button class="btn btn-secondary">See My work</button>
-</div>
+            <div class="cta-buttons">
+                <a href="get-in-touch.html">
+                    <button class="btn btn-primary">Get in touch</button>
+                </a>
+                <a href="works.html">
+                    <button class="btn btn-secondary">See My work</button>
+                </a>
+            </div>
 
-<!-- Project Showcase -->
-<div class="showcase">
-<div class="browser-header">
-<img src="IMAGES/logo.png" class="browser-logo" alt="Logo Icon">
-<div style="flex: 1;"></div>
-<i class="fas fa-desktop" style="color: #666;"></i>
-<i class="fas fa-tablet-alt" style="color: #666; margin: 0 10px;"></i>
-<i class="fas fa-mobile-alt" style="color: #fff;"></i>
-</div>
+            <!-- Project Showcase -->
+            <div class="showcase">
+                <div class="browser-header">
+                    <img src="IMAGES/japheth_logo_1.PNG" class="browser-logo" alt="Logo">
+                    <div style="flex: 1;"></div>
+                    <i class="fas fa-desktop" style="color: #666;"></i>
+                    <i class="fas fa-tablet-alt" style="color: #666; margin: 0 10px;"></i>
+                    <i class="fas fa-mobile-alt" style="color: #fff;"></i>
+                </div>
 
-<div class="showcase-content">
-<!-- Sidebar -->
-<div class="sidebar">
-<div class="menu-item">
-<i class="fas fa-home"></i>
-<span>Home</span>
-</div>
-<div class="menu-item active">
-<i class="fab fa-facebook-f"></i>
-<span>Facebook Ads</span>
-</div>
-<div class="menu-item">
-<i class="fab fa-facebook-f"></i>
-<span>Facebook</span>
-</div>
-<div class="menu-item">
-<i class="fab fa-shopify"></i>
-<span>Shopify</span>
-</div>
-<div class="menu-item">
-<i class="fab fa-facebook-f"></i>
-<span>Squared Away</span>
-</div>
-<div class="menu-item">
-<i class="fas fa-graduation-cap"></i>
-<span>Wix</span>
-</div>
-<div class="menu-item">
-<i class="fas fa-question-circle"></i>
-<span>FAQs</span>
-</div>
-<div class="menu-item">
-<i class="fas fa-database"></i>
-<span>Data Base</span>
-</div>
-</div>
+                <div class="showcase-content">
+                    <!-- Sidebar -->
+                    <div class="sidebar">
+                        <div class="menu-item">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </div>
+                        <div class="menu-item active">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook Ads</span>
+                        </div>
+                        <div class="menu-item">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </div>
+                        <div class="menu-item">
+                            <i class="fab fa-shopify"></i>
+                            <span>Shopify</span>
+                        </div>
+                        <div class="menu-item">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Squared Away</span>
+                        </div>
+                        <div class="menu-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Wix</span>
+                        </div>
+                        <div class="menu-item">
+                            <i class="fas fa-question-circle"></i>
+                            <span>FAQs</span>
+                        </div>
+                        <div class="menu-item">
+                            <i class="fas fa-database"></i>
+                            <span>Data Base</span>
+                        </div>
+                    </div>
 
-<!-- Main Content -->
-<div class="main-content">
-<div class="project-card">
-<img src="IMAGES/image.png" alt="Fashion Store">
-</div>
-<div class="project-card">
-<img src="IMAGES/fashion_banner.png" alt="Jewelry Store">
-</div>
-<div class="project-card">
-<img src="IMAGES/japhinix_shoppinghub.PNG" alt="Coffee Shop">
-</div>
-</div>
+                    <!-- Main Content with Scrolling Animation -->
+                    <div class="main-content-scroll">
+                        <!-- Row 1 - Scrolls Right -->
+                        <div class="scroll-row scroll-right">
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/image.png" alt="Fashion Store">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/fashion_banner.png" alt="Jewelry Store">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/japhinix_shoppinghub.PNG" alt="Coffee Shop">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/Niora_Connect_Website.PNG" alt="Fashion Store">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/Car  Inspection App.png" alt="Jewelry Store">
+                            </div>
+                        </div>
 
-<!-- Right Panel -->
-<div class="right-panel">
-<div class="panel-section">
-<span>Position</span>
-</div>
-<div class="panel-section">
-<span>Title</span>
-<span>Update</span>
-</div>
-<div class="panel-section">
-<span>Width</span>
-<span>Ht</span>
-<span>Tag</span>
-</div>
-<div class="panel-section">
-<span>Max Width</span>
-<span>VDD</span>
-<span>Full</span>
-</div>
-<div class="panel-section">
-<span>Layout</span>
-</div>
-<div class="panel-section">
-<span>Structure</span>
-<span>Favorite</span>
-</div>
-<div class="panel-section">
-<span>Align</span>
-<span>Baseline</span>
-</div>
-<div class="panel-section">
-<span>Wrap</span>
-<span>Relative</span>
-</div>
-</div>
-</div>
-</div>
+                        <!-- Row 2 - Scrolls Left -->
+                        <div class="scroll-row scroll-left">
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/Niora_Connect_Website.PNG" alt="Coffee Shop">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/Car  Inspection App.png" alt="Fashion Store">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/Anchor_global.PNG" alt="Jewelry Store">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/logo_fashion.png" alt="Coffee Shop">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/linked_banner.png" alt="Fashion Store">
+                            </div>
+                        </div>
 
-<!-- Tech Stack Icons -->
-<div class="tech-stack">
-<i class="fab fa-github tech-icon" style="color: #fff;"></i>
-<i class="fab fa-css3-alt tech-icon css"></i>
-<i class="fab fa-html5 tech-icon html"></i>
-<i class="fab fa-js tech-icon js"></i>
-<i class="fab fa-node tech-icon node"></i>
-<i class="fab fa-react tech-icon react"></i>
-<i class="fab fa-figma tech-icon figma"></i>
-</div>
+                        <!-- Row 3 - Scrolls Right -->
+                        <div class="scroll-row scroll-right">
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/health_check up.png" alt="Jewelry Store">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/japhinix_shoppinghub.PNG" alt="Coffee Shop">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/image.png" alt="Fashion Store">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/fashion_banner.png" alt="Jewelry Store">
+                            </div>
+                            <div class="project-card-scroll">
+                                <img src="IMAGES/japhinix_shoppinghub.PNG" alt="Coffee Shop">
+                            </div>
+                        </div>
+                    </div>
 
-<!-- Social Links -->
-<div class="social-links">
-<a href="#"><i class="fab fa-linkedin"></i></a>
-<a href="#"><i class="fab fa-github"></i></a>
-<a href="#"><i class="fab fa-tiktok"></i></a>
-<a href="#"><i class="fab fa-discord"></i></a>
-</div>
-</section>
+                    <!-- Right Panel -->
+                    <div class="right-panel">
+                        <div class="panel-section">
+                            <span>Position</span>
+                        </div>
+                        <div class="panel-section">
+                            <span>Title</span>
+                            <span>Update</span>
+                        </div>
+                        <div class="panel-section">
+                            <span>Width</span>
+                            <span>Ht</span>
+                            <span>Tag</span>
+                        </div>
+                        <div class="panel-section">
+                            <span>Max Width</span>
+                            <span>VDD</span>
+                            <span>Full</span>
+                        </div>
+                        <div class="panel-section">
+                            <span>Layout</span>
+                        </div>
+                        <div class="panel-section">
+                            <span>Structure</span>
+                            <span>Favorite</span>
+                        </div>
+                        <div class="panel-section">
+                            <span>Align</span>
+                            <span>Baseline</span>
+                        </div>
+                        <div class="panel-section">
+                            <span>Wrap</span>
+                            <span>Relative</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<!-- Footer -->
-<footer>
-©️ 2025 All rights reserved
-</footer>
+            <!-- Tech Stack Icons -->
+            <div class="tech-stack">
+                <i class="fab fa-github tech-icon" style="color: #fff;"></i>
+                <i class="fab fa-css3-alt tech-icon css"></i>
+                <i class="fab fa-html5 tech-icon html"></i>
+                <i class="fab fa-js tech-icon js"></i>
+                <i class="fab fa-node tech-icon node"></i>
+                <i class="fab fa-react tech-icon react"></i>
+                <i class="fab fa-figma tech-icon figma"></i>
+            </div>
 
-<script src="script.js"></script>
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/japheth-anindo-21732b144/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/JAnindo"><i class="fab fa-github"></i></a>
+                <a href="https://www.tiktok.com/@j_anindo?_r=1&_t=ZS-93S7MsLHXUu"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            ©️ 2025 All rights reserved
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
-
