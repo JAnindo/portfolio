@@ -259,7 +259,7 @@ const projects = {
         technology: 'HTML5, CSS3, Vanilla JS',
         industry: 'Personal Portfolio',
         image: 'IMAGES/MY PORTFOLIO.png',
-        previewLink: '#'
+        previewLink: 'https://janindo.netlify.app/'
     }
 };
 
@@ -403,7 +403,7 @@ const blogPosts = {
         category: 'ui/ux Design',
         date: 'November 20, 2025',
         readTime: '7 min read',
-        featuredImage: 'IMAGES/logo_fashion.png',
+        featuredImage: 'IMAGES/Personal_Portfolio.PNG',
         content: `
             <h2>Introduction</h2>
             <p>To take Shii Fashion to the next level, we treat this design as a Brand Identity Layout. The goal is to move away from a "collage" look and toward a "catalog" look. This involves using Adobe Photoshop for "raster" work (pixels, photos, textures) and Adobe Illustrator for "vector" work (logos, icons, and sharp text).</p>
